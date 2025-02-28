@@ -153,11 +153,6 @@ export function Header() {
           {RESUME_DATA.about}
         </p>
 
-        <LocationLink
-          location={RESUME_DATA.location}
-          locationLink={RESUME_DATA.locationLink}
-        />
-
         <ContactButtons
           contact={RESUME_DATA.contact}
           personalWebsiteUrl={RESUME_DATA.personalWebsiteUrl}
@@ -169,13 +164,13 @@ export function Header() {
         />
       </div>
 
-      <Avatar className="size-28" aria-hidden="true">
+      {/* <Avatar className="size-28" aria-hidden="true">
         <AvatarImage
           alt={`${RESUME_DATA.name}'s profile picture`}
           src={RESUME_DATA.avatarUrl}
         />
         <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
-      </Avatar>
+      </Avatar> */}
     </header>
   );
 }
