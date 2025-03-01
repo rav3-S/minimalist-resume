@@ -97,8 +97,8 @@ export const RESUME_DATA = {
       ],
       description: "A full-stack expense management web application using GraphQL APIs, resulting in optimized data fetching and enhanced user experience. Integrated data visualization using charts to present real-time financial insights for users",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "expenseGQL",
+        href: "",
       },
     },
     {
@@ -107,7 +107,7 @@ export const RESUME_DATA = {
       description:"My personal website/portfolio. Built with React and framer motion for showcasing my ablities. Features responsive design with animations for a smooth and modern user experience.",
       link: {
         label: "github.com",
-        href: "https://jarocki.me/",
+        href: "https://rav3-s.github.io/portfolio/",
       },
     },
   ],
